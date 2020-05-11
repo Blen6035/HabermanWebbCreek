@@ -1,6 +1,81 @@
 ---
-
 ---
+@import 'bootstrap/bootstrap';
 
-@import "main";
-@import "css/bootstrap/bootstrap";
+body {
+    padding: 0;
+    margin: 0;
+    background: black;
+  }
+
+  
+
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#3d3d3d;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+  }
+  .navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover, .navbar-brand:hover {
+    color: orange;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .jumbotron{
+    background-image: url(../images/wood-nature-forest-trees-113339.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+   }
+
+   .jumbo {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    left: 10%;
+    right: 10%;
+  }
+
+  .jumbo h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 300%;
+  }
+  .jumbo p {
+    color: white;
+    font-size: 120%;
+  }
+
+  .features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+  }
+
+  .feature-title, .features h1, p {
+    color: white;
+
+  }
+
+  .feature-title, .features h1{
+    font-family: 'Bebas Neue', cursive;
+  }
+
+
+
+  .footer-copyright {
+    color: #3d3d3d;
+    padding: 40px 0;
+  }
+
