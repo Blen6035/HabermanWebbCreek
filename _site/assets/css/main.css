@@ -2737,8 +2737,6 @@ body { padding: 0; margin: 0; background: black; }
 
 .navbar-brand { font-family: 'Bebas Neue', cursive; font-size: 200%; }
 
-.nav-link { margin-right: 1em !important; }
-
 .nav-link:hover, .navbar-brand:hover { color: orange; }
 
 .navbar-collapse { -webkit-box-pack: end; justify-content: flex-end; }
